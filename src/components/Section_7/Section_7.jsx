@@ -1,7 +1,7 @@
 import React from "react";
 import Sectionbuttons from "./Sectionbuttons";
 import "./sec7_styles.css";
-function Section_7() {
+function Section7() {
   return (
     <div className="section7">
       <div className="section7_container">
@@ -30,4 +30,4 @@ function Section_7() {
   );
 }
 
-export default Section_7;
+export default Section7;

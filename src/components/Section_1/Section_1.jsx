@@ -1,6 +1,6 @@
 import React from "react";
 import "./sec1_styles.css";
-function Section_1() {
+function Section1() {
   return (
     <div className="section_1">
       <div className="sec1_leftpane">
@@ -15,4 +15,4 @@ function Section_1() {
   );
 }
 
-export default Section_1;
+export default Section1;

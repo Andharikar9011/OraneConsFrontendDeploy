@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-function Card_8(props) {
+function Card8(props) {
   return (
     <div className="card">
       <img src={props.url} className="imghead" alt="cardimg"></img>
@@ -16,4 +16,4 @@ function Card_8(props) {
   );
 }
 
-export default Card_8;
+export default Card8;

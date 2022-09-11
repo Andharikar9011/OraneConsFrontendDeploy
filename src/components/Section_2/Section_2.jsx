@@ -1,7 +1,7 @@
 import React from "react";
 import Card0 from "../utility/Card0";
 import "./sec2_styles.css";
-function Section_2() {
+function Section2() {
   return (
     <div className="sec2_container">
       <div className="sec2_content">
@@ -37,4 +37,4 @@ function Section_2() {
   );
 }
 
-export default Section_2;
+export default Section2;

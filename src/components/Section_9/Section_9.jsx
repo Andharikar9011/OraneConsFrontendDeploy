@@ -2,7 +2,7 @@ import React from "react";
 import "./sec9_styles.css";
 import { BsArrowRight } from "react-icons/bs";
 
-const Section_9 = () => {
+const Section9 = () => {
   return (
     <div className="sec9_container">
       <div className="sec9_img1"></div>
@@ -28,4 +28,4 @@ const Section_9 = () => {
   );
 };
 
-export default Section_9;
+export default Section9;

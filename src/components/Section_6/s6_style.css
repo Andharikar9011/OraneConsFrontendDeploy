@@ -1,0 +1,15 @@
+.section_6 {
+  min-height: 52rem;
+  margin-bottom: 5rem;
+}
+
+.s6_heading {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 55px;
+  padding: 5rem;
+
+  color: #213058;
+}

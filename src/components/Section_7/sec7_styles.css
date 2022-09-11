@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Roboto+Condensed:wght@300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap");
+
+.section7 {
+  padding-top: 8.125rem;
+  padding-bottom: 4.75rem;
+}
+
+.section7_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sec7_leftpane {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: left;
+}
+
+.sec7_leftpane h1 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 1.25rem;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+
+  color: #17395c;
+}
+
+.sec7_leftpane p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 2.438rem;
+
+  /* grey sec */
+
+  color: #555555;
+}
+
+.sec7_outerButton {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  min-width: 35.063rem;
+  background: #f0f2f5;
+  border-radius: 8px;
+  margin-bottom: 1.875rem;
+}
+
+.sec7_outerButton h4 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #17395c;
+}
+
+.sec7_outerButton button {
+  background: #ffffff;
+  border-radius: 6px;
+  border: 0 white;
+  padding: 0.625rem 0.875rem;
+}
+
+.sec7_rightpane {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}

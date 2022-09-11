@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Roboto+Condensed:wght@300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap");
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section_8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f0f2f5;
+  height: 51.875rem;
+}
+
+.section_8 h1 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+  margin-bottom: 5.625rem;
+
+  color: #00072f;
+}
+
+.cardcontent {
+  padding: 1rem;
+  background: #ffffff;
+  min-height: 15.313rem;
+  width: 21.3rem;
+}
+.cardcontent p {
+  margin-top: 0.813rem;
+}
+
+.cardbottom {
+  display: flex;
+  align-items: flex-start;
+  margin-top: -36px;
+  margin-left: 22px;
+}
+
+.imghead {
+  margin-bottom: 0;
+}

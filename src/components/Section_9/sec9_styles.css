@@ -1,0 +1,121 @@
+.sec9_container {
+  height: 31.3125rem;
+  display: flex;
+  background: linear-gradient(180deg, #195184 0%, #4e5985 100%);
+}
+
+.sec9_img1 {
+  width: 20%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../../../public/page1/page1elem9cont1.png");
+  opacity: 0.2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sec9_img2 {
+  width: 20%;
+  background: url("../../../public/page1/page1elem9cont2.png");
+  opacity: 0.2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sec9_img3 {
+  width: 20%;
+  background: url("../../../public/page1/page1elem9cont3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+}
+.sec9_img4 {
+  width: 20%;
+  background: url("../../../public/page1/page1elem9cont2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+}
+.sec9_img5 {
+  width: 20%;
+  background: url("../../../public/page1/page1elem9cont1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+}
+.sec9_containeroverlap {
+  position: absolute;
+  padding-left: 6.0625rem;
+}
+
+.sec9_containeroverlap h1 {
+  margin-top: 6.4375rem;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 55px;
+
+  color: #ffffff;
+}
+
+.sec9_containeroverlap p {
+  margin-top: 1.25rem;
+  max-width: 37.75rem;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.001em;
+
+  color: #ffffff;
+}
+
+.sec9_containeroverlap div {
+  margin-top: 2.0625rem;
+  height: 4rem;
+  width: 14.6875rem;
+  border: 3px solid white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec9_containeroverlap div span {
+  margin-right: 0.6875rem;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.0025em;
+  color: #ffffff;
+}
+
+/* .sec9_containeroverlap button {
+  height: 4rem;
+  width: 14.6875rem;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  margin-top: 2.0625rem;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+} */
+/* identical to box height */
+/*letter-spacing: 0.0025em;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: #ffffff;
+} */

@@ -1,0 +1,77 @@
+.sec4_container {
+  min-height: 59rem;
+  display: flex;
+  align-items: center;
+  padding-left: 6.06rem;
+}
+
+.sec4_containerleft {
+  padding-right: 5.18rem;
+}
+
+.sec4_container_left_img {
+  width: 33.563rem;
+  height: 44.625rem;
+  background: url("../../../public/page1/page1elem4cont1.png");
+  background-position: center;
+}
+
+.sec4_container_left_img_under {
+}
+
+.sec4_containerright {
+  width: 39.125rem;
+}
+
+.sec4_containerright h1 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0.0025em;
+
+  color: #001332;
+}
+
+.sec4_containerright p {
+  margin-top: 1.688rem;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+
+  /* or 167% */
+  letter-spacing: 0.0015em;
+
+  color: #555555;
+}
+
+.sec4_containerright button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+
+  /* identical to box height, or 167% */
+  letter-spacing: 0.0015em;
+
+  color: #001332;
+}
+
+.sec4_button_img_align {
+  margin-top: 6.375rem;
+  display: flex;
+  align-items: center;
+  max-width: 10.563rem;
+  justify-content: space-between;
+}

@@ -6,8 +6,8 @@ const Section4 = () => {
     <section className="sec4_container">
       <div className="sec4_containerleft">
         {/* <img src="./page1/page1elem4cont1.png" alt="img" /> */}
-        <div className="sec4_container_left_img" alt="topimg ">
-        <img src='./page1/sec4_bgim.png' className="sec4_topimg" />
+        <div className="sec4_container_left_img" alt="bgimg ">
+        <img src='./page1/sec4_bgim.png'alt="topimg" className="sec4_topimg" />
         </div>
         
       </div>

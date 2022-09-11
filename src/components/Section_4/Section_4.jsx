@@ -6,8 +6,10 @@ const Section4 = () => {
     <section className="sec4_container">
       <div className="sec4_containerleft">
         {/* <img src="./page1/page1elem4cont1.png" alt="img" /> */}
-        <div className="sec4_container_left_img"></div>
-        <div className="sec4_container_left_img_under"></div>
+        <div className="sec4_container_left_img">
+        <img src='./page1/sec4_bgim.png' className="sec4_topimg" />
+        </div>
+        
       </div>
       <div className="sec4_containerright">
         <h1>Stay One Step Ahead Leveraging Our Expertise</h1>

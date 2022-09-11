@@ -14,9 +14,14 @@
   height: 44.625rem;
   background: url("../../../public/page1/page1elem4cont1.png");
   background-position: center;
+  padding: 1rem;
 }
-
-.sec4_container_left_img_under {
+.sec4_topimg {
+  display: flex;
+  align-items: center;
+  margin-left: 180px;
+  margin-top: 180px;
+  padding-top: 10rem;
 }
 
 .sec4_containerright {

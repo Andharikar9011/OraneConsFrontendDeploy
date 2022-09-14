@@ -1,5 +1,5 @@
 import React from "react";
-import Card0 from "../utility/Card0";
+import Card0 from "../../../components/utility/Card0";
 import "./sec2_styles.css";
 function Section2() {
   return (

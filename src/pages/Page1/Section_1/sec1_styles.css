@@ -6,7 +6,7 @@
 }
 
 .sec1_leftpane {
-  background: url("../../../public/page1/page1elem1cont1.png");
+  background: url("../../../../public/page1/page1elem1cont1.png");
   width: calc(100vw - 34.8125rem);
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
 }
 .sec1_rightpane {
   /* width:40%; */
-  background: url("../../../public/page1/page1elem1cont2.png");
+  background: url("../../../../public/page1/page1elem1cont2.png");
   background-repeat: no-repeat;
   width: 34.8125rem;
   height: 37.3125rem;
@@ -61,4 +61,11 @@
   border-color: white;
 
   margin-left: 6.0625rem;
+}
+
+@media (max-width: 1000px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
 }

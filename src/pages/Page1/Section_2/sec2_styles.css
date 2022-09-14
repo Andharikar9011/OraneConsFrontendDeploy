@@ -8,6 +8,7 @@
 .sec2_cards-display {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: nowrap;
 }
 
 .sec2_content {
@@ -44,4 +45,11 @@
   /* grey sec2 */
 
   color: #555555;
+}
+
+@media only screen and (max-width: 1000px) {
+  .sec2_cards-display {
+    display: flex;
+    flex-direction: column;
+  }
 }

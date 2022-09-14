@@ -7,7 +7,7 @@
 .sec9_img1 {
   width: 20%;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../../../public/page1/page1elem9cont1.png");
+    url("../../../../public/page1/page1elem9cont1.png");
   opacity: 0.2;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,7 +15,7 @@
 }
 .sec9_img2 {
   width: 20%;
-  background: url("../../../public/page1/page1elem9cont2.png");
+  background: url("../../../../public/page1/page1elem9cont2.png");
   opacity: 0.2;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,7 +23,7 @@
 }
 .sec9_img3 {
   width: 20%;
-  background: url("../../../public/page1/page1elem9cont3.png");
+  background: url("../../../../public/page1/page1elem9cont3.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -31,7 +31,7 @@
 }
 .sec9_img4 {
   width: 20%;
-  background: url("../../../public/page1/page1elem9cont2.png");
+  background: url("../../../../public/page1/page1elem9cont2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -39,7 +39,7 @@
 }
 .sec9_img5 {
   width: 20%;
-  background: url("../../../public/page1/page1elem9cont1.png");
+  background: url("../../../../public/page1/page1elem9cont1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

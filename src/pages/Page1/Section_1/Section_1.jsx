@@ -10,7 +10,9 @@ function Section1() {
         </h3>
         <button className="sec1_leftpane_button">Get Started</button>
       </div>
-      <div className="sec1_rightpane"></div>
+      <div className="sec1_rightpane">
+        {/* <img src="./page1/page1elem1cont1.png" alt="img"/> */}
+      </div>
     </div>
   );
 }

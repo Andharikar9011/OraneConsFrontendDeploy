@@ -10,12 +10,14 @@ import Section7 from "./Section_7/Section_7";
 import Section8 from "./Section_8/Section_8";
 import Section9 from "./Section_9/Section_9";
 import Footer from '../../components/Footer/Footer.jsx'
-import Header from '../../components/Navbar/Header.jsx'
+// import Header from '../../components/Navbar/Header.jsx'
+import HeaderRes from "../../components/Navbar/HeaderRes";
 
 function Page1() {
   return (
     <div className="Page1">
-      <Header />
+      {/* <Header /> */}
+      <HeaderRes/>
       <Section1 />
       <Section2 />
       <Section3 heading="Logistics & Supply Chain"

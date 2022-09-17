@@ -8,6 +8,7 @@
 .section7_container {
   display: flex;
   justify-content: space-evenly;
+  /* background-color: red; */
 }
 
 .sec7_leftpane {

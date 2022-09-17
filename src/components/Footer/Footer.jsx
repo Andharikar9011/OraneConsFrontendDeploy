@@ -1,15 +1,17 @@
+import { Grid } from "@mui/material";
 import React from "react";
 import Copyrightbar from "./Copyrightbar";
 import Footcard from "./Footcard";
-import FooterNav from "./FooterNav";
+// import FooterNav from "./FooterNav";
+import { FooterNavRes } from "./FooterNavRes";
 
 import "./footer_styles.css";
 
 const Footer = () => {
   return (
     <div className="footerfinal">
-      <div className="footercontainer">
-        <div className="footerCol1">
+      <Grid container  className="footercontainer">
+        <div className="footerCol1" sm={12}  xs={12}  md={12}>
           <ul>
             <li>Frameworks and Accelerators</li>
             <li>Digital Transformation</li>
@@ -20,7 +22,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footerCol2">
+        <div className="footerCol2" sm={12} xs={12}  md={12}>
           <ul>
             <li className="f_listHead">Industries</li>
             <li>Retail</li>
@@ -33,7 +35,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footerCol3">
+        <div className="footerCol3" sm={12} xs={12} md={12}>
           <ul>
             <li className="f_listHead">Services</li>
             <li>SAP Services</li>
@@ -44,14 +46,15 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footerCol4">
+        <div className="footerCol4" sm={12} xs={12}  md={12}>
           <Footcard />
         </div>
-      </div>
+      </Grid>
       <hr className="f_horiLine" />
 
       <div className="footer-bottom">
-        <FooterNav />
+        {/* <FooterNav /> */}
+        <FooterNavRes/>
         <Copyrightbar />
       </div>
     </div>

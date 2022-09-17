@@ -5,6 +5,7 @@ function Section7() {
   return (
     <div className="section7">
       <div className="section7_container">
+      
         <div className="sec7_leftpane">
           <h1>Catalyst for Digital Enterprise</h1>
           <p>

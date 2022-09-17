@@ -1,62 +1,55 @@
 import { Grid } from '@mui/material'
 import React from 'react'
-import Card0 from '../../components/utility/Card0'
+import { Card1 } from '../../components/utility/Card1'
+// import Card0 from '../../components/utility/Card0'
+// import Card1 from '../../components/utility/Card1'
 
 export const Section22 = () => {
   return (
-    <div>
-        <Grid container>
-            <Grid item lg={12} style={{
-              marginBottom: '2rem', 
-              display:"flex", 
-              justifyContent:"center",
-              fontFamily: 'Ubuntu',
-              fontStyle: 'normal',
-              fontWeight: '500',
-              fontSize: '48px',
-              lineHeight: '55px',
+    <div style={{
+      display: "flex",
+      flexDirection: 'column' ,
+      justifyContent: 'center',
+      alignItems: 'center',
+      margin: '2rem 0 2rem'
+    }}>
 
-              color: '#213058'
-              }}>
-               <h1 style={{
-                fontFamily: 'Ubuntu',
-                fontStyle: 'normal',
-                fontWeight: '500',
-                fontSize: '48px',
-                lineHeight: '55px',
+      <h3 style={{
+        fontFamily: 'Ubuntu',
+        fontStyle: 'normal',
+        fontWeight: '500',
+        fontSize: '48px',
+        lineHeight: '55px',
 
-                color: '#213058'
-               }}>Our Values</h1>
-            </Grid>
-                
-            <Grid item lg={12}>
+        color: '#213058',
+        marginBottom: '1rem'
+       
+      }}>Our Values</h3>
 
-                <Grid container  spacing={2} sx={
-                  {
-                    // paddingLeft: "3rem",
-                   
-                    display: 'flex',
-                    // flexDirection: 'column',
-                    alignItems : 'center',
-                    justifyContent: 'space-around'
-                  }
-                }>
-                {/* card1 */}
-                 
-                    <Card0/>
-                 
+        <Grid container 
+          sx={{
+            display: 'flex',
+            justifyContent: 'space-evenly',
+            alignItems: 'center'
 
-                  {/* card2 */}
-                  
-                    <Card0/>
-                  
+          }}
+        >
 
-                  {/* card3 */}
-                 
-                    <Card0/>
-                 
-                </Grid>
-            </Grid>
+             <Grid item>
+                  <Card1   heading="We Enable" url="" content="With a constant helping hand to upskill, we enable employees for limitless success"/>
+              
+             </Grid>
+
+             <Grid item>
+                  <Card1 heading="We Attract" url="" content="We craft champions by providing them countless career and growth happiness "/>
+
+             </Grid>
+
+             <Grid item>
+                  <Card1 heading="We Engage" url="" content="With Live Projects & Engaging activities,we craeted an eccentric work environment."/>
+
+             </Grid>
+              
         </Grid>
     
     </div>

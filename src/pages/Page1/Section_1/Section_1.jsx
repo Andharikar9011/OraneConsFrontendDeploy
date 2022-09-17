@@ -11,7 +11,7 @@ function Section1() {
         <button className="sec1_leftpane_button">Get Started</button>
       </div>
       <div className="sec1_rightpane">
-        {/* <img src="./page1/page1elem1cont1.png" alt="img"/> */}
+        <img src="./page1/page1elem1cont2.png" alt="img" />
       </div>
     </div>
   );

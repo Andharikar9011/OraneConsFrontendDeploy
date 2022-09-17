@@ -3,21 +3,24 @@
 .section_1 {
   display: flex;
   background: linear-gradient(91.15deg, #033667 -3.07%, #014e8e 99.26%);
+  min-height: 37.3125rem;
 }
 
 .sec1_leftpane {
   background: url("../../../../public/page1/page1elem1cont1.png");
-  width: calc(100vw - 34.8125rem);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  width: 61.4%;
 }
 .sec1_rightpane {
-  /* width:40%; */
-  background: url("../../../../public/page1/page1elem1cont2.png");
-  background-repeat: no-repeat;
-  width: 34.8125rem;
-  height: 37.3125rem;
+  width: 38.6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec1_rightpane img {
+  display: block;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: contain;
 }
 
 .sec1_leftpane h1 {
@@ -48,6 +51,7 @@
 .sec1_leftpane_button {
   background: #f4ae3f;
   font-family: "Noto Sans";
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -61,11 +65,4 @@
   border-color: white;
 
   margin-left: 6.0625rem;
-}
-
-@media (max-width: 1000px) {
-  .section {
-    display: flex;
-    flex-direction: column;
-  }
 }

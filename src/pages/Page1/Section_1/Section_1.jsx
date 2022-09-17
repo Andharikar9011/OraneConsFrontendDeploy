@@ -5,10 +5,8 @@ function Section1() {
     <div className="section_1">
       <div className="sec1_leftpane">
         <h1>Transform idea into results.</h1>
-        <h3>
-          Mobilize strength for transformation <br /> and growth
-        </h3>
-        <button className="sec1_leftpane_button">Get Started</button>
+        <h3>Mobilize strength for transformation and growth</h3>
+        <button>Get Started</button>
       </div>
       <div className="sec1_rightpane">
         <img src="./page1/page1elem1cont2.png" alt="img" />

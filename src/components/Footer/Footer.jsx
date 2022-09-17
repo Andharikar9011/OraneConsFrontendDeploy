@@ -2,7 +2,7 @@ import { Grid } from "@mui/material";
 import React from "react";
 import Copyrightbar from "./Copyrightbar";
 import Footcard from "./Footcard";
-import FooterNav from "./FooterNav";
+// import FooterNav from "./FooterNav";
 import { FooterNavRes } from "./FooterNavRes";
 
 import "./footer_styles.css";

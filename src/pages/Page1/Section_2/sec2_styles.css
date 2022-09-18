@@ -7,7 +7,6 @@
 .sec2_cards-display {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 3.4375rem;
   flex-wrap: wrap;
 }

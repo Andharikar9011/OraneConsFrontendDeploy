@@ -6,7 +6,7 @@ function Card0(props) {
     <div className="card0">
       <img src={props.url} alt="img here"></img>
 
-      <div className="cardcontent">
+      <div className="card_content">
         <h1>{props.heading}</h1>
         <p>{props.content}</p>
         <button>Read More</button>

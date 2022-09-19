@@ -1,7 +1,7 @@
 
 import { Route, Routes } from "react-router-dom";
 import Page1 from "./pages/Page1/index.jsx";
-import { Page2 } from "./pages/Page2/index.jsx";
+import Page2  from "./pages/Page2/index.jsx";
 
 
 function App() {

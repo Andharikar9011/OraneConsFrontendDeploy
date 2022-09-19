@@ -6,7 +6,7 @@ import CoverCardBtn from '../../components/utility/CoverCardBtn'
 import Section21 from './Section21'
 import { Section22 } from './Section22'
 
-export const Page2 = () => {
+function Page2(){
   return (
     <div>
     <HeaderRes/>
@@ -18,3 +18,5 @@ export const Page2 = () => {
   </div>
   )
 }
+
+export default Page2;

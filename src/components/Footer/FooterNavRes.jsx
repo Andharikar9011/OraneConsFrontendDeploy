@@ -12,7 +12,7 @@ export const FooterNavRes = () => {
             {/* logo */}
             <Grid item >
                 <div className="navlogo" >
-                    <img src="./logobgless.png" alt="Logo"></img>
+                    <img src="../logobgless.png" alt="Logo"></img>
                 </div>
             </Grid>
 

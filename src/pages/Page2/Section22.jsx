@@ -36,17 +36,17 @@ export const Section22 = () => {
         >
 
              <Grid item>
-                  <Card1   heading="We Enable" url="" content="With a constant helping hand to upskill, we enable employees for limitless success"/>
+                  <Card1   heading="We Enable" url="../page2/Sec22_img1.png" content="With a constant helping hand to upskill, we enable employees for limitless success"/>
               
              </Grid>
 
              <Grid item>
-                  <Card1 heading="We Attract" url="" content="We craft champions by providing them countless career and growth happiness "/>
+                  <Card1 heading="We Attract" url="../page2/Sec22_img2.png" content="We craft champions by providing them countless career and growth happiness "/>
 
              </Grid>
 
              <Grid item>
-                  <Card1 heading="We Engage" url="" content="With Live Projects & Engaging activities,we craeted an eccentric work environment."/>
+                  <Card1 heading="We Engage" url="../page2/Sec22_img3.png" content="With Live Projects & Engaging activities,we craeted an eccentric work environment."/>
 
              </Grid>
               

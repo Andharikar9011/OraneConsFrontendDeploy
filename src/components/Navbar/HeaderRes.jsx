@@ -9,7 +9,7 @@ const HeaderRes = () => {
     <>
         <Grid container className="navContainer" >
             <Grid item >
-                <img src="./orneconslogo.png" className="navlogo" alt="Logo"></img>
+                <img src="../orneconslogo.png" className="navlogo" alt="Logo"></img>
             </Grid>
             <Grid item >
                 <Grid container className='navlinkContainer' >

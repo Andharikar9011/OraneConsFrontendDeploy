@@ -1,0 +1,59 @@
+.s21_quote_section {
+  background: #f0f2f5;
+  width: 100%;
+  min-height: 32rem;
+}
+
+.s21_quote {
+  height: 32rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  margin: 0 auto;
+}
+
+.s21_quoteLeft img {
+  margin-left: 0.5rem;
+}
+
+.s21_quote blockquote {
+  width: 70%;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 37px;
+
+  /* grey sec */
+  text-align: center;
+  color: #555555;
+}
+
+/* .s21_quote img {
+  min-height: 4rem; 
+   max-width: 2rem;
+} */
+
+#s21_quoteLeft {
+  align-self: flex-start;
+}
+
+#s21_quoteLeft img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+#s21_quoteRight {
+  align-self: flex-end;
+}
+#s21_quoteRight img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 0.5rem;
+}

@@ -88,4 +88,14 @@
   .sec4_button_img_align {
     margin-top: 2rem;
   }
+  .sec4_containerright h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .sec4_containerright p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+  }
 }

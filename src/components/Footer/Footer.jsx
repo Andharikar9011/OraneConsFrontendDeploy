@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+// import { Grid } from "@mui/material";
 import React from "react";
 import Copyrightbar from "./Copyrightbar";
 import Footcard from "./Footcard";
@@ -10,8 +10,8 @@ import "./footer_styles.css";
 const Footer = () => {
   return (
     <div className="footerfinal">
-      <Grid container  className="footercontainer">
-        <div className="footerCol1" sm={12}  xs={12}  md={12}>
+     <div container  className="footercontainer">
+        <div className="footerCol1" >
           <ul>
             <li>Frameworks and Accelerators</li>
             <li>Digital Transformation</li>
@@ -22,7 +22,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footerCol2" sm={12} xs={12}  md={12}>
+        <div className="footerCol" >
           <ul>
             <li className="f_listHead">Industries</li>
             <li>Retail</li>
@@ -35,7 +35,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footerCol3" sm={12} xs={12} md={12}>
+        <div className="footerCol" >
           <ul>
             <li className="f_listHead">Services</li>
             <li>SAP Services</li>
@@ -49,7 +49,7 @@ const Footer = () => {
         <div className="footerCol4" sm={12} xs={12}  md={12}>
           <Footcard />
         </div>
-      </Grid>
+      </div>
       <hr className="f_horiLine" />
 
       <div className="footer-bottom">

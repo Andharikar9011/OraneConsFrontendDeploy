@@ -1,6 +1,6 @@
 import React from "react";
 import CoverCardBtn from "../../../components/utility/CoverCardBtn";
-import Section3 from "../Section_3/Section_3";
+// import Section3 from "../Section_3/Section_3";
 import "./s6_style.css";
 function Section6() {
   return (

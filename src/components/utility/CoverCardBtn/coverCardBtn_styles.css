@@ -9,7 +9,8 @@
   color: white;
   background-color: white;
   min-height: 23rem;
-  width: 40%;
+  /* width: 40%; */
+  width: 50%;
 }
 
 .overlap_content {

@@ -2,6 +2,7 @@ import React from 'react'
 import { Grid } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import "./header_style.css";
+import { Link } from 'react-router-dom';
 
 
 const HeaderRes = () => {
@@ -15,7 +16,12 @@ const HeaderRes = () => {
                 <Grid container className='navlinkContainer' >
 
                     <Grid item className='navlinksGrid'>
-                        Services
+                    <Link  to={{
+                        pathname: "/page2",
+                       
+                        }}
+                        style={{textDecoration:"none"}} > Services</Link>
+                       
                     </Grid>
 
                     <Grid item className='navlinksGrid'>

@@ -19,38 +19,53 @@
   color: #00072f;
 }
 
+.sec8_cardcontent h3 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.0025em;
+  color: #17395c;
+}
+.sec8_cardcontent p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.0025em;
+  color: #555555;
+}
 .sec8_cards {
   margin-top: 90px;
   margin-bottom: 108px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 68px;
 }
-
 .sec8_card_inner {
-  height: 492px;
+  max-width: 300px;
 }
-
-.cardcontent {
-  padding: 1rem;
-  background: #ffffff;
-  min-height: 15.313rem;
-  width: 21.3rem;
+.sec8_card_inner > img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  filter: drop-shadow(0px 8px 24px rgba(0, 0, 0, 0.15));
 }
-.cardcontent p {
-  margin-top: 0.813rem;
-}
-
-.cardbottom {
+.sec8_cardbottom {
   display: flex;
-  align-items: flex-start;
-  margin-top: -36px;
-  margin-left: 22px;
+  margin-top: -5px;
 }
-
-.imghead {
-  margin-bottom: 0;
+.sec8_cardbottom img {
+  object-fit: contain;
+  align-self: flex-start;
+}
+.sec8_cardcontent {
+  padding: 38px 14px 58px 23px;
+  color: #fff;
+}
+.sec8_cardcontent p {
+  margin-top: 13px;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Basicbuttons from "./s5buttons";
 import S5img from "./S5img";
-import "./styles.css";
+import "./sec5_styles.css";
 
 function Section5() {
   return (
@@ -14,7 +14,7 @@ function Section5() {
         <Basicbuttons name="empower" />
       </div>
 
-      <div className="row1">
+      <div className="sec5_row">
         <S5img
           className="overlapimg"
           url="./s5_img/s5_1.png"
@@ -30,9 +30,6 @@ function Section5() {
           url="./s5_img/s5_3.png"
           heading="Digital Transformation"
         />
-      </div>
-
-      <div className="row2">
         <S5img
           className="overlapimg"
           url="./s5_img/s5_4.png"

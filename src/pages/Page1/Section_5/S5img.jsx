@@ -1,6 +1,6 @@
 // import { useSlotProps } from '@mui/base'
 import React from "react";
-import "./styles.css";
+import "./sec5_styles.css";
 
 function S5img(props) {
   return (

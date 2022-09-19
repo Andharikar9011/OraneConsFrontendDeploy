@@ -17,32 +17,32 @@ function Section5() {
       <div className="sec5_row">
         <S5img
           className="overlapimg"
-          url="./s5_img/s5_1.png"
+          url="./page1/s5_1.png"
           heading="Legacy Transformation"
         />
         <S5img
           className="overlapimg"
-          url="./s5_img/s5_2.png"
+          url="./page1/s5_2.png"
           heading="Cloud Transformation"
         />
         <S5img
           className="overlapimg"
-          url="./s5_img/s5_3.png"
+          url="./page1/s5_3.png"
           heading="Digital Transformation"
         />
         <S5img
           className="overlapimg"
-          url="./s5_img/s5_4.png"
+          url="./page1/s5_4.png"
           heading="Audit & Optimization"
         />
         <S5img
           className="overlapimg"
-          url="./s5_img/s5_5.png"
+          url="./page1/s5_5.png"
           heading="Data Analytics"
         />
         <S5img
           className="overlapimg"
-          url="./s5_img/s5_6.png"
+          url="./page1/s5_6.png"
           heading="Mobile Enablement"
         />
       </div>

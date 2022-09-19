@@ -38,7 +38,7 @@
   margin-bottom: 1rem;
 }
 
-.cardcontent {
+.card_content {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -51,12 +51,6 @@
   width: 23.645rem;
   height: 17.125rem;
   object-fit: cover;
-
-  /* background-size: cover; */
-  /* background-position: center; */
-  /* object-fit: cover;
-  width: 100%;
-  height: 100%; */
 }
 
 .card0 h1 {
@@ -77,35 +71,36 @@
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  /* or 178% */
-
   letter-spacing: 0.0015em;
-
-  /* grey sec */
-
   color: #555555;
 }
 
 .card0 button {
   margin-top: 2.125rem;
   background: none;
-
   border: none;
   padding: 0;
   font: inherit;
   cursor: pointer;
   outline: inherit;
-
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
-  /* identical to box height */
-
   letter-spacing: 0.0025em;
-
   color: #213058;
-
   margin-bottom: 4.125rem;
+}
+
+@media screen and (max-width: 600px) {
+  .card0 {
+    width: 20rem;
+  }
+  .card0 img {
+    width: 100%;
+  }
+  .card_content {
+    width: 100%;
+  }
 }

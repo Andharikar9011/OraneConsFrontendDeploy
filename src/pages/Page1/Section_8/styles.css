@@ -3,6 +3,7 @@
 .cards {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .section_8 {

@@ -5,11 +5,10 @@ const Section4 = () => {
   return (
     <section className="sec4_container">
       <div className="sec4_containerleft">
-        {/* <img src="./page1/page1elem4cont1.png" alt="img" /> */}
-        <div className="sec4_container_left_img" alt="bgimg ">
-        <img src='./page1/sec4_bgim.png'alt="topimg" className="sec4_topimg" />
+        <div className="sec4_img1">
+          {/* <div className="sec4_img2"></div> */}
+          <img src="./page1/page1elem4cont1.png" alt="img" />
         </div>
-        
       </div>
       <div className="sec4_containerright">
         <h1>Stay One Step Ahead Leveraging Our Expertise</h1>

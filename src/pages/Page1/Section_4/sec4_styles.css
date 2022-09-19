@@ -1,31 +1,37 @@
 .sec4_container {
+  display: flex;
   min-height: 59rem;
-  display: flex;
-  align-items: center;
-  padding-left: 6.06rem;
 }
-
 .sec4_containerleft {
-  padding-right: 5.18rem;
+  margin-top: 100px;
+  margin-bottom: 100p;
+  margin-left: 7vw;
+  width: 48%;
+  flex-grow: 1;
+}
+.sec4_img1 img {
+  height: 714px;
+  width: 100%;
+  object-fit: cover;
+  padding: 2rem;
+}
+.sec4_img1 {
+  background-image: url("../../../../public/Group_59.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.sec4_containerright {
+  max-width: 52%;
+  margin-left: 2rem;
+  padding-right: 97px;
+  margin-top: 212px;
 }
 
-.sec4_container_left_img {
-  width: 33.563rem;
-  height: 44.625rem;
-  background: url("../../../../public/page1/page1elem4cont1.png");
-  background-position: center;
-  padding: 1rem;
-}
-.sec4_topimg {
+.sec4_button_img_align {
+  margin-top: 102px;
   display: flex;
   align-items: center;
-  margin-left: 180px;
-  margin-top: 180px;
-  padding-top: 10rem;
-}
-
-.sec4_containerright {
-  width: 39.125rem;
 }
 
 .sec4_containerright h1 {
@@ -35,25 +41,22 @@
   font-size: 48px;
   line-height: 55px;
   letter-spacing: 0.0025em;
-
   color: #001332;
 }
 
 .sec4_containerright p {
-  margin-top: 1.688rem;
+  margin-top: 1.6875rem;
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
   line-height: 40px;
-
-  /* or 167% */
   letter-spacing: 0.0015em;
-
   color: #555555;
 }
 
 .sec4_containerright button {
+  margin-right: 14px;
   background: none;
   color: inherit;
   border: none;
@@ -66,17 +69,23 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 40px;
-
-  /* identical to box height, or 167% */
   letter-spacing: 0.0015em;
-
   color: #001332;
 }
 
-.sec4_button_img_align {
-  margin-top: 6.375rem;
-  display: flex;
-  align-items: center;
-  max-width: 10.563rem;
-  justify-content: space-between;
+@media screen and (max-width: 1050px) {
+  .sec4_container {
+    display: inline;
+  }
+  .sec4_containerleft {
+    width: 80%;
+  }
+  .sec4_containerright {
+    max-width: 100%;
+    padding: 0;
+    margin: 2rem;
+  }
+  .sec4_button_img_align {
+    margin-top: 2rem;
+  }
 }

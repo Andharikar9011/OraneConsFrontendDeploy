@@ -11,7 +11,7 @@ const CommonCover = (props) => {
     <div style={{
         
           // backgroundColor: 'cyan',
-          height: '38rem',
+          height: '37rem',
        
         }}>
             <Grid container style={{

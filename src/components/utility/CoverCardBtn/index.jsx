@@ -5,6 +5,11 @@ import Overlapcard from './Overlapcard'
 // import zIndex from '@mui/material/styles/zIndex'
 
 const CoverCardBtn = (props) => {
+  // ../page1/page1elem3cont1.png
+  // ${eggCount}
+  // `url("./page1/page1elem3cont1.png")`
+  let urlPath = props.urllink;
+  let urlLink = `url(${urlPath})`
   return (
     <div style={{
       
@@ -12,7 +17,7 @@ const CoverCardBtn = (props) => {
           height: '40rem',
     }}>
         <Grid container style={{
-          backgroundImage: `url("../page1/page1elem3cont1.png")`,
+          backgroundImage: urlLink,
           width: '100%',
           backgroundSize: 'cover',
           height: '30rem',

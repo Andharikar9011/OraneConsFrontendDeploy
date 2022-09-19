@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Roboto+Condensed:wght@300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap");
+
+.section25 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: left; */
+}
+
+.section25_container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* align-items: flex-start; */
+  /* text-align: left; */
+}
+
+.s25_head {
+  /* margin-left: 9rem; */
+  /* margin: 1rem auto; */
+  text-align: left;
+  align-self: flex-start;
+  /* text-align: left; */
+}
+
+.s25_head span {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0.0025em;
+
+  color: #213058;
+}
+.s25_head p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  letter-spacing: 0.001em;
+
+  /* grey sec */
+
+  color: #555555;
+}
+
+.perksBar {
+  display: flex;
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.perksIcon {
+  background: #f4f4f4;
+  border-radius: 50px;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 2rem; */
+}
+
+.s25_bottom {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  align-items: flex-start;
+  margin-bottom: 8rem;
+  /* gap: 5rem;
+  column-gap: 3rem; */
+}
+
+.perksContent {
+  margin-right: 2rem;
+  /* background-color: red; */
+  padding: 1rem;
+}
+
+.s25_perk_col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* margin-left: 1rem; */
+}

@@ -33,7 +33,7 @@
   font-family: "Noto Sans", sans-serif;
 }
 
-.footerCol2 ul {
+.footerCol ul {
   list-style-type: none;
   margin-top: 4.625rem;
   font-family: "Noto Sans";
@@ -41,18 +41,17 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;
-  /* identical to box height */
 
   letter-spacing: 0.001em;
 
   color: #033667;
 }
-.footerCol2 ul li {
+.footerCol ul li {
   margin-bottom: 1.813rem;
   font-family: "Noto Sans", sans-serif;
 }
 
-.footerCol3 ul {
+/* .footerCol3 ul {
   list-style-type: none;
   margin-top: 4.625rem;
   font-family: "Noto Sans";
@@ -60,8 +59,7 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;
-  /* identical to box height */
-
+  
   letter-spacing: 0.001em;
 
   color: #033667;
@@ -69,7 +67,7 @@
 .footerCol3 ul li {
   margin-bottom: 1.813rem;
   font-family: "Noto Sans", sans-serif;
-}
+} */
 
 .footerCol4 {
   margin-top: 4.625rem;
@@ -183,12 +181,13 @@
 .socialMediaIcons {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 .socialMediaIcons li {
-  margin-left: 3.75rem;
+  /* margin-left: 2rem; */
+  padding: 2em;
 }
 
 .f_copyright {
@@ -220,4 +219,20 @@
 
 .navlogo {
   background: #f0f2f5;
+}
+
+@media only screen and (max-width: 1000px) {
+  .footerCol {
+    text-align: center;
+  }
+  .footercontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerCol1 {
+    text-align: center;
+  }
+  .footerCol4 {
+    margin: 2rem auto;
+  }
 }

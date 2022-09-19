@@ -26,7 +26,9 @@ function Page1() {
         content="Integrated Solutions For Wide  Logistic Operations"
         imgurl="./page1/s3_1.png"/> */}
      
-        <CoverCardBtn heading="Logistics & Supply Chain" content="Integrated Solutions For Wide  Logistic Operations"/>
+        <CoverCardBtn heading="Logistics & Supply Chain" content="Integrated Solutions For Wide  Logistic Operations"
+        urllink="../page1/page1elem3cont1.png"
+        />
 
         
       <Section4 />

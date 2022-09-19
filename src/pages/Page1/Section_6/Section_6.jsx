@@ -11,6 +11,7 @@ function Section6() {
       <CoverCardBtn
          heading="Logistics & Supply Chain"
         content="Integrated Solutions For Wide  Logistic Operations"
+        urllink="./page1/page1elem6cont1.png"
       />
     </div>
   );

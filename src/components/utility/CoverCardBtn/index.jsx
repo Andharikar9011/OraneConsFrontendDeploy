@@ -5,13 +5,9 @@ import Overlapcard from './Overlapcard'
 // import zIndex from '@mui/material/styles/zIndex'
 
 const CoverCardBtn = (props) => {
-
-  
-
-
   return (
     <div style={{
-      height: '500px',
+      
           // backgroundColor: 'cyan',
           height: '40rem',
     }}>

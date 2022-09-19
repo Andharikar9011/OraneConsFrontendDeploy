@@ -84,3 +84,21 @@
   line-height: 28px;
   color: #0f100a;
 }
+
+@media screen and (max-width: 450px) {
+  .s5card img {
+    width: 240px;
+    height: auto;
+  }
+  .s5content {
+    width: 200px;
+    height: 75px;
+    align-content: center;
+    margin: -35px auto 0;
+  }
+  .s5content h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+  }
+}

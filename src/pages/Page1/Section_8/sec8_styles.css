@@ -46,7 +46,7 @@
   gap: 68px;
 }
 .sec8_card_inner {
-  max-width: 300px;
+  max-width: 350px;
 }
 .sec8_card_inner > img {
   width: 100%;
@@ -63,8 +63,9 @@
   align-self: flex-start;
 }
 .sec8_cardcontent {
-  padding: 38px 14px 58px 23px;
+  padding: 38px 14px 0px 23px;
   background-color: #fff;
+  height: 250px;
 }
 .sec8_cardcontent p {
   margin-top: 13px;
